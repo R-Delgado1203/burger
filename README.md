@@ -1,4 +1,4 @@
-#Burger App
+# **Burger App**
 
 
 Eat-Da-Burger app allows you to view a list of orders that have been placed for burgers, it also allows you to add burgers, and devour burgers that have not yet been eaten.
