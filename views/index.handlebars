@@ -22,6 +22,7 @@
             </ul>
         </div>
         <div class="col-sm-6">
+            <br>
             <h2>Burgers That Have Been Eaten!</h2>
             {{#each burgers}}
             {{#if this.devoured}}
@@ -35,13 +36,14 @@
     </div>
     <div class="row">
         <div class="center col-sm-12">
+            <hr>
             <h2>Add A Burger!</h2>
             <form class="create-form">
                 <div class="form-group">
                     <label for="burger">Burger Name:</label>
                     <input type="text" id="burger" name="name">
                 </div>
-                <button type="submit">Add Burger</button>
+                <button class="btn-primary" type="submit">Add Burger</button>
             </form>
             {{!-- <form class="create-update-form" action="/" method="POST">
                 <div class="form-group">
